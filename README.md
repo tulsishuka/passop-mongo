@@ -1,12 +1,36 @@
-# React + Vite
+# Simple URL Saver
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A basic web app where users can enter a URL, and it gets saved to a backend database. Built using React, Tailwind CSS, HTML, CSS, JavaScript, 
+and the Fetch API.which help you to learn how save data in database
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Installation
 
-## Expanding the ESLint configuration
+```fronted 
+$ npm create vite@latest
+ npm i express
+npm i body-parser
+npm i mongodb
+nodemon server.js
+```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Usage
+
+🧱 Tech Stack
+
+Technology	Purpose
+HTML/CSS	Structure and basic styling
+Tailwind CSS	Utility-first responsive design
+JavaScript	App logic and Fetch API calls
+React	Component-based frontend
+Backend (Node/Express or any)	Receives and stores data
+Database	Stores submitted URLs
+
+
+ ## Features
+ 
+✅ Input a URL from the user
+
+✅ Save the URL to a backend server using Fetch API
+
+✅ Store data in a connected database
